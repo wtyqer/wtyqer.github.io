@@ -1,0 +1,212 @@
+{
+  "Author": "scriptdw - Inspired by Joyee Cheung and Lxxyx",
+  "Guide": [
+    "照着这里面的格式填写即可",
+    "PDF使用chrome浏览器的保存为PDF即可,放置于src/pdf文件夹。",
+    "PDF的地址，将这个文件里pdf部分改为你的PDF文件名即可"
+  ],
+  "title": "党伟 - 个人简历",
+  "aside": [{
+    "href": "https://github.com/scriptdw/dwresume",
+    "content": "源代码"
+  }, {
+    "href": "./pdf/dwresume.pdf",
+    "content": "PDF下载"
+  }, {
+    "href": "https://segmentfault.com/u/kiddiesdw",
+    "content": "SF"
+  }, {
+    "href": "https://www.zhihu.com/people/dang-wei-72/activities",
+    "content": "知乎"
+  }, {
+    "href": "https://coding.net/u/sagapo",
+    "content": "Coding"
+  }],
+  "header": {
+    "title": {
+      "name": "党伟",
+      "job": "前端开发实习生"
+    },
+    "contacts": {
+      "phone": "13170872757",
+      "mail": "poshigan@gmail.com",
+      "wechat": "SagapoFamily",
+      "weibo": {
+        "href": "http://weibo.com/u/5587027282/home",
+        "name": "党伟-young"
+      },
+      "github": {
+        "href": "https://github.com/scriptdw",
+        "name": "scriptdw"
+      }
+    }
+  },
+  "education": {
+    "time": "2014-2018",
+    "name": "南昌大学",
+    "major": "光电信息科学与工程（本科）",
+    "honor": [
+      "2015.3 - 2016.8 南昌大学家园工作室 — 前端开发",
+      "2016.9 - 至今 南昌大学家园工作室 — 前端负责人"
+    ]
+  },
+  "language": {
+    "cert": [{
+      "name": "CET-4",
+      "grade": 458,
+      "fullmarks": 710
+    }],
+    "skills": [
+      "能较为流畅的阅读开发文档及其他资料",
+      "可在英文字幕下观看 MOOC 课程、开发者大会视频",
+      "能正常使用Google与Stack Overflow解决开发问题"
+    ]
+  },
+  "experience": [{
+    "title": {
+      "place": "家园工作室",
+      "time": "2014.10-至今"
+    },
+    "content": {
+      "position": "前端开发",
+      "tasks": [
+        "使用 `Vue` + `Webpack` , 开发单页应用",
+        "负责工作室日常前端工作安排，定期开展前端分享会，解决疑难 BUG ",
+        "制定工作室前端技术栈，前端代码规范，以及新人前端学习路线"
+      ]
+    }
+  }, {
+    "title": {
+      "place": "中智CIICTALK",
+      "time": "2016.7-2016.8"
+    },
+    "content": {
+      "position": "前端开发",
+      "tasks": [
+        "重构官网为响应式布局，优化性能",
+        "`优化 HTML/CSS/JavaScript` , 提高可维护性",
+        "学习实践 `HTML5/CSS3` 相关知识"
+      ]
+    }
+  }, {
+    "title": {
+      "place": "个人博客",
+      "links": [{
+        "name": "Demo",
+        "href": "http://scriptdw.cn:1995/"
+      }, {
+        "name": "源代码",
+        "href": "http://github.com/scriptdw/scriptdw"
+      }]
+    },
+    "content": {
+      "position": "前端&后端",
+      "tasks": [
+        "用 `vue` 框架实现前端页面架构，用 `vue-resource` 进行数据异步请求，用 `vue-router` 实现路由切换",
+        "用 `css + js` 实现动画",
+        "后端用 `node + express` 实现功能API",
+        "数据库使用 `MongoDB`，并用 `mongoose` 对数据库进行操作"
+      ]
+    }
+  }, {
+    "title": {
+      "place": "家园课程表",
+      "links": [{
+        "name": "Demo",
+        "href": "http://scriptdw.cn:2001/#/"
+      }, {
+        "name": "源代码",
+        "href": "https://coding.net/u/Lxxyx/p/schedule_be"
+      }]
+    },
+    "content": {
+      "position": "前端",
+      "tasks": [
+        "实现了根据用户微信端 openid 来所绑定的学号，生成当前学期课程",
+        "前端采用 `Vue + Webpack` 框架，并适配 data-dpr 不同的移动设备"
+      ]
+    }
+  }, {
+    "title": {
+      "place": "个人简历",
+      "links": [{
+        "name": "Demo",
+        "href": "https://scriptdw.github.io"
+      }, {
+        "name": "源代码",
+        "href": "https://github.com/scriptdw/scriptdw.github.io"
+      }]
+    },
+    "content": {
+      "position": "前端&Node",
+      "tasks": [
+        "参考并仿写张秋怡学姐的简历",
+        "前端使用 `Gulp + css` 完成响应式设计",
+        "后端使用 `Gulp + Jade` 完成网页生成"
+      ]
+    }
+  }],
+  "skills": {
+    "flags": {
+      "name": "Web前端",
+      "skill": [{
+        "name": "`HTML/CSS`",
+        "description": [
+          "能够编写语义化的 `HTML` ，熟悉 `CSS` 的使用，实现常用的布局与动画，能借助 `CanvasAPI` 实现简单游戏",
+          "了解 `HTML5/CSS3` 新特性，敢于尝试，能熟练使用部分新特性",
+          "不借助框架，能编写`响应式/移动端网页`"
+        ]
+      }, {
+        "name": "`ECMAScript（JavaScript）`",
+        "description": [
+          "熟悉 JavaScript ，`代码编写遵守规范`",
+          "了解` JavaScript 面向对象知识`与 `MV*` 模式",
+          "学习 ES6/7 规范，不断实践并在新项目中应用",
+          "熟悉 JavaScript 异步编程，`掌握常见的异步解决方案`"
+        ]
+      }, {
+        "name": "前端工程化实践",
+        "description": [
+          "能熟练使用 `Vue` 并搭配 Vue 相关工具 完成单页和常见应用的编写",
+          "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
+          "对 React 和 Angular 等业界主流框架有所了解",
+          "较熟练使用 `Gulp` 等代码构建工具"
+        ]
+      }]
+    },
+    "cloud": {
+      "name": "Web后端",
+      "skill": [{
+        "name": "`Node.js`",
+        "description": [
+          "使用 `JavaScript + Express` 等框架搭建后端服务器",
+          "`使用 Node.js 开发命令行` ",
+          "能配合 MongoDB 进行数据存储"
+        ]
+      }, {
+        "name": "其它知识",
+        "description": [
+          "熟悉` HTTP 常见知识`,对 HTTP2/WebSocket 等新知识有所了解",
+          "使用 Unity + Javascript 写出过一些简单的 2D 游戏"
+        ]
+      }]
+    },
+    "gears": {
+      "name": "其它",
+      "skill": [{
+        "name": "`计算机基础`",
+        "description": [
+          "计算机基础较好，`对计算机与编程有极大热情，自学能力较强`",
+          "在 Github 有自己的开源项目"
+        ]
+      }, {
+        "name": "工具使用",
+        "description": [
+          "一年 Linux 使用经验，`使用 Ubuntu 作为日常系统`",
+          "熟练使用 Git 等代码管理与团队协作工具，了解常见 Gitflow 并尝试在团队内推广使用",
+          "日常使用 `Sublime Text ` 进行开发"
+        ]
+      }]
+    }
+  }
+}
