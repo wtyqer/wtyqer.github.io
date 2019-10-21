@@ -1,2 +1,0 @@
-
-//# sourceMappingURL=log.js.map

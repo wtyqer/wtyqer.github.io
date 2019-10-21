@@ -1,380 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <title>吴天宇 - 个人简历</title>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/normalize/4.1.1/normalize.min.css" />
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  <link rel="stylesheet" type="text/css" href="./css/iconfont.css" />
- </head>
- <body>
-  <aside>
-      <ul>
-       <li><a href="https://github.com/wtyqer" target="_blank">源代码</a></li>
-       <li><a href="./pdf/wtyresume.pdf" target="_blank">PDF下载</a></li>
-       <!--<li><a href="https://segmentfault.com/u/kiddiesdw" target="_blank">SF</a></li>-->
-       <!--<li><a href="https://www.zhihu.com/people/dang-wei-72/activities" target="_blank">知乎</a></li>-->
-       <!--<li><a href="https://coding.net/u/sagapo" target="_blank">Coding</a></li>-->
-      </ul>
-  </aside>
-  <div class="container">
-   <header>
-    <figure class="qrcode">
-     <img src="./img/wechat.jpg" />
-    </figure>
-    <section class="title">
-     <h1>吴天宇</h1>
-     <h2>前端工程师/软件工程师</h2>
-    </section>
-    <address>
-    <ul class="contacts">
-     <li class="icon-phone phone"><a>16619870572</a></li>
-     <li class="icon-mail"><a href="mailto:wtyqer@gmail.com">wtyqer@gmail.com</a></li>
-     <li class="icon-wechat wechat">Mark</li>
-     <li class="icon-weibo"><a href="https://weibo.com/wtyqer">binaryPole</a></li>
-     <li class="icon-github"><a href="https://github.com/wtyqer">https://github.com/wtyqer</a></li>
-    </ul></address>
-   </header>
-   <article class="content">
-    <article class="column-6">
-     <section class="education">
-      <div class="sec-title-wrapper icon-book">
-       <h3 class="sec-title"><span class="sec-zh">教育经历</span><span class="sec-en">Education</span></h3>
-      </div>
-      <div class="timeline-wrapper">
-       <ul class="sec-content timeline">
-        <li class="timeline-item icon-flags"><h3 class="timeline-title"><time class="education-time">2008-2012</time></h3>
-         <dl class="education-content">
-          <dt class="education-name">
-           北京师范大学珠海分校
-          </dt>
-          <dd class="education-major icon-hat">
-           软件工程（本科）
-          </dd>
-          <dd class="education-honor icon-trophy">
-           2015.3 - 2016.8 南昌大学家园工作室 — 前端开发
-          </dd>
-          <dd class="education-honor icon-trophy">
-           2016.9 - 至今 南昌大学家园工作室 — 前端负责人
-          </dd>
-         </dl></li>
-       </ul>
-      </div>
-     </section>
-     <!--
-     <section class="language">
-      <div class="sec-title-wrapper icon-chat">
-       <h3 class="sec-title"><span class="sec-zh">语言水平</span><span class="sec-en">Language</span></h3>
-      </div>
-
-      <div class="sec-content">
-       <dl class="language-certificates">
-        <div class="language-cert-wrapper">
-         <dt class="language-cert-type">
-          CET-4
-         </dt>
-         <dd class="progress">
-          <div style="width:64.50704225352113%" class="progress-bar">
-           <span class="progress-label">458</span>
+  <head>
+    <meta charset="utf-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main" id="main">
+      <div class="menu-box"></div>
+      <div class="sub-menu" id="sub-menu">
+        <div class="inner-box">
+          <div class="sub-inner-box">
+            <div class="title">手机、配件</div>
+            <div class="sub-row">
+              <span>手机通讯：</span>
+              <a href="#">手机</a>
+              <span>/</span>
+              <a href="#">手机维修</a>
+              <span>/</span>
+              <a href="#">以旧换新</a>
+            </div>
+            <div class="sub-row">
+              <span>手机配件：</span>
+              <a href="#">手机壳</a>
+              <span>/</span>
+              <a href="#">手机存储卡</a>
+              <span>/</span>
+              <a href="#">数据线</a>
+              <span>/</span>
+              <a href="#">充电器</a>
+              <span>/</span>
+              <a href="#">电池</a>
+            </div>
+            <div class="sub-row">
+              <span>运营商：</span>
+              <a href="">中国联通</a>
+              <span>/</span>
+              <a href="">中国移动</a>
+              <span>/</span>
+              <a href="">中国电信</a>
+            </div>
+            <div class="sub-row">
+              <span>智能设备：</span>
+              <span class="ml10 mr10">/</span>
+              <a href="">智能手环</a>
+              <span>/</span>
+              <a href="">智能家居</a>
+              <span>/</span>
+              <a href="">智能手表</a>
+              <span>/</span>
+              <a href="">其他配件</a>
+            </div>
+            <div class="sub-row">
+              <span>娱乐：</span>
+              <a href="">耳机</a>
+              <span>/</span>
+              <a href="">音响</a>
+              <span>/</span>
+              <a href="">收音机</a>
+              <span>/</span>
+              <a href="">麦克风</a>
+            </div>
           </div>
-         </dd>
         </div>
-       </dl>
-       <ul class="language-skills">
-        <li class="icon-star">能较为流畅的阅读开发文档及其他资料</li>
-        <li class="icon-star">可在英文字幕下观看 MOOC 课程、开发者大会视频</li>
-        <li class="icon-star">能正常使用Google与Stack Overflow解决开发问题</li>
-       </ul>
-       </div>
-     </section>
-     -->
-     <section class="experience">
-      <div class="sec-title-wrapper icon-rocket">
-       <h3 class="sec-title"><span class="sec-zh">项目与工作经验</span><span class="sec-en">Experience</span></h3>
+        <div class="inner-box">
+          <div class="sub-inner-box">
+            <div class="title">手机、配件</div>
+            <div class="sub-row">
+              <span>手机通讯：</span>
+              <a href="#">手机</a>
+              <span>/</span>
+              <a href="#">手机维修</a>
+              <span>/</span>
+              <a href="#">以旧换新</a>
+            </div>
+            <div class="sub-row">
+              <span>手机配件：</span>
+              <a href="#">手机壳</a>
+              <span>/</span>
+              <a href="#">手机存储卡</a>
+              <span>/</span>
+              <a href="#">数据线</a>
+              <span>/</span>
+              <a href="#">充电器</a>
+              <span>/</span>
+              <a href="#">电池</a>
+            </div>
+            <div class="sub-row">
+              <span>运营商：</span>
+              <a href="">中国联通</a>
+              <span>/</span>
+              <a href="">中国移动</a>
+              <span>/</span>
+              <a href="">中国电信</a>
+            </div>
+            <div class="sub-row">
+              <span>智能设备：</span>
+              <span class="ml10 mr10">/</span>
+              <a href="">智能手环</a>
+              <span>/</span>
+              <a href="">智能家居</a>
+              <span>/</span>
+              <a href="">智能手表</a>
+              <span>/</span>
+              <a href="">其他配件</a>
+            </div>
+            <div class="sub-row">
+              <span>娱乐：</span>
+              <a href="">耳机</a>
+              <span>/</span>
+              <a href="">音响</a>
+              <span>/</span>
+              <a href="">收音机</a>
+              <span>/</span>
+              <a href="">麦克风</a>
+            </div>
+          </div>
+        </div>
+        <div class="inner-box">
+          <div class="sub-inner-box">
+            <div class="title">手机、配件</div>
+            <div class="sub-row">
+              <span>手机通讯：</span>
+              <a href="#">手机</a>
+              <span>/</span>
+              <a href="#">手机维修</a>
+              <span>/</span>
+              <a href="#">以旧换新</a>
+            </div>
+            <div class="sub-row">
+              <span>手机配件：</span>
+              <a href="#">手机壳</a>
+              <span>/</span>
+              <a href="#">手机存储卡</a>
+              <span>/</span>
+              <a href="#">数据线</a>
+              <span>/</span>
+              <a href="#">充电器</a>
+              <span>/</span>
+              <a href="#">电池</a>
+            </div>
+            <div class="sub-row">
+              <span>运营商：</span>
+              <a href="">中国联通</a>
+              <span>/</span>
+              <a href="">中国移动</a>
+              <span>/</span>
+              <a href="">中国电信</a>
+            </div>
+            <div class="sub-row">
+              <span>智能设备：</span>
+              <span class="ml10 mr10">/</span>
+              <a href="">智能手环</a>
+              <span>/</span>
+              <a href="">智能家居</a>
+              <span>/</span>
+              <a href="">智能手表</a>
+              <span>/</span>
+              <a href="">其他配件</a>
+            </div>
+            <div class="sub-row">
+              <span>娱乐：</span>
+              <a href="">耳机</a>
+              <span>/</span>
+              <a href="">音响</a>
+              <span>/</span>
+              <a href="">收音机</a>
+              <span>/</span>
+              <a href="">麦克风</a>
+            </div>
+          </div>
+        </div>
+        <div class="inner-box">
+          <div class="sub-inner-box">
+            <div class="title">手机、配件</div>
+            <div class="sub-row">
+              <span>手机通讯：</span>
+              <a href="#">手机</a>
+              <span>/</span>
+              <a href="#">手机维修</a>
+              <span>/</span>
+              <a href="#">以旧换新</a>
+            </div>
+            <div class="sub-row">
+              <span>手机配件：</span>
+              <a href="#">手机壳</a>
+              <span>/</span>
+              <a href="#">手机存储卡</a>
+              <span>/</span>
+              <a href="#">数据线</a>
+              <span>/</span>
+              <a href="#">充电器</a>
+              <span>/</span>
+              <a href="#">电池</a>
+            </div>
+            <div class="sub-row">
+              <span>运营商：</span>
+              <a href="">中国联通</a>
+              <span>/</span>
+              <a href="">中国移动</a>
+              <span>/</span>
+              <a href="">中国电信</a>
+            </div>
+            <div class="sub-row">
+              <span>智能设备：</span>
+              <span class="ml10 mr10">/</span>
+              <a href="">智能手环</a>
+              <span>/</span>
+              <a href="">智能家居</a>
+              <span>/</span>
+              <a href="">智能手表</a>
+              <span>/</span>
+              <a href="">其他配件</a>
+            </div>
+            <div class="sub-row">
+              <span>娱乐：</span>
+              <a href="">耳机</a>
+              <span>/</span>
+              <a href="">音响</a>
+              <span>/</span>
+              <a href="">收音机</a>
+              <span>/</span>
+              <a href="">麦克风</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="timeline-wrapper">
-       <ul class="sec-content timeline">
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">普惠通信息技术有限公司</span><time class="experience-time">2016.8-2019.4</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           前端开发
-          </dt>
-          <dd class="experience-task icon-gear">
-           页面开发 &
-           <strong>Android App</strong>
-           开发
-          </dd>
-          <dd class="experience-task icon-gear">
-           制订前端技术栈 & 分享会 & 新人路线设定
-          </dd>
-          <dd class="experience-task icon-gear">
-           建立 Git 规范 & CI 体系 & 账号体系
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">北京小雨点科技有限公司</span><time class="experience-time">2014.7-2016.7</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           前端&amp;后端
-          </dt>
-          <dd class="experience-task icon-gear">
-           负责Android平台的客户端产品开发
-          </dd>
-          <dd class="experience-task icon-gear">
-           负责对手机客户端进行维护和持续升级
-          </dd>
-          <dd class="experience-task icon-gear">
-           完成设计文档以及相关文档的编写工作
-          </dd>
-          <dd class="experience-task icon-gear">
-           学习和研究新技术以满足产品的需求
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">广州别样网络科技有限公司</span><time class="experience-time">2012.7-2014.6</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           移动端开发
-          </dt>
-          <dd class="experience-task icon-gear">
-           对项目进行需求分析，文档编写
-          </dd>
-          <dd class="experience-task icon-gear">
-           商品相关的模块的开发以及主要部分UI的实现
-          </dd>
-          <dd class="experience-task icon-gear">
-           技术的难点调试与测试，对部分功能性能的优化，项目后期的维护等
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">个人博客</span><time class="experience-time">2016.7-2016.8</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           前端&amp;后端
-          </dt>
-          <dd class="experience-task icon-gear">
-           用
-           <strong>vue</strong> 框架实现前端页面架构，用
-           <strong>vue-resource</strong> 进行数据异步请求，用
-           <strong>vue-router</strong> 实现路由切换
-          </dd>
-          <dd class="experience-task icon-gear">
-           用
-           <strong>css + js</strong> 实现动画
-          </dd>
-          <dd class="experience-task icon-gear">
-           后端用
-           <strong>node + express</strong> 实现功能API
-          </dd>
-          <dd class="experience-task icon-gear">
-           数据库使用
-           <strong>MongoDB</strong>，并用
-           <strong>mongoose</strong> 对数据库进行操作
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">优购时尚商城</span><time class="experience-time">2014.3-2014.6</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           项目描述
-          </dt>
-          <dd class="experience-task icon-gear">
-          优购商城是以优质、时尚为网站定位的大型时尚B2C电子商务平台。
-          </dd>
-          <dt class="experience-position">
-           责任描述
-          </dt>
-          <dd class="experience-task icon-gear">
-           协助PM进行需求分析，确定系统功能，参与系统设计以及功能模块的详细设计。部分UI的设计，按照MVC模式编写代码，Bug调试，
-           编写大部分功能模块,负责界面的统一管理,搭建了统一的框架基类BaseActivity,服务器请求与相应的协议的封装。
-          </dd>
-          <dt class="experience-position">
-           技术要点
-          </dt>
-          <dd class="experience-task icon-gear">
-           利用单一<strong>Activity</strong>配合多<strong>View</strong>实现界面风格的统一管理
-          </dd>
-          <dd class="experience-task icon-gear">
-           建立基类<strong>View</strong>和界面管理器，和观察者模式实现三容器联动
-          </dd>
-          <dd class="experience-task icon-gear">
-           利用增强<strong>AsyncTask</strong>异步向服务器发送数据请求
-          </dd>
-          <dd class="experience-task icon-gear">
-           利用<strong>fastjson</strong>解析从服务器返回的所有商品信息数据
-          </dd>
-          <dd class="experience-task icon-gear">
-           优化界面的数据显示，实现流畅滑动。
-          </dd>
-          <dd class="experience-task icon-gear">
-              实现分页数据加载（上拉刷新和下拉加载）
-          </dd>
-          <dd class="experience-task icon-gear">
-              返回搜索结果后，对搜索后的商品列表可进行更近一步的筛选，使用侧滑效果（通过<strong>SlidingMenu</strong>开源框架实现）弹出筛选条件，依据各个分类的品牌对搜索结果再进行筛选。
-          </dd>
-          <dd class="experience-task icon-gear">
-              利用<strong>ViewPager</strong>和计时器实现首页的商品滚动重复显示。
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">联通多触点营销平台</span><time class="experience-time">2013.11-2014.2</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           前端&amp;Android
-          </dt>
-          <dd class="experience-task icon-gear">
-           <strong>fragment</strong>实现主界面功能模块划分
-          </dd>
-          <dd class="experience-task icon-gear">
-           利用<strong>popupwindow</strong>和<strong>viewPager</strong>实现客户创建的业务类型划分
-          </dd>
-          <dd class="experience-task icon-gear">
-           在终端对比页面用到<strong>viewPager</strong>嵌套<strong>GridView</strong>显示终端列表
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-bag"><h3 class="timeline-title"><span class="experience-place">彩票直通车</span><time class="experience-time">2013.4-2013.10</time></h3>
-         <dl class="experience-content">
-          <dt class="experience-position">
-           前端&amp;Android
-          </dt>
-          <dd class="experience-task icon-gear">
-           使用<strong>des</strong>与<strong>MD5</strong>相结合的方式，对传输的敏感数据进行加密与校验
-          </dd>
-          <dd class="experience-task icon-gear">
-              为避免<strong>ANR</strong>异常，多个请求启动多个线程，使用<strong>AsyncTask</strong>异步发送获取数据
-          </dd>
-          <dd class="experience-task icon-gear">
-           界面与业务逻辑分离，采用<strong>bean</strong>工厂实现解耦
-          </dd>
-         </dl></li>
-       </ul>
+      <div class="main-menu">
+        <div class="menu-item">
+          <a href="">
+            <span>手机、配件</span>
+            <i class="icon">&#xe665;</i>
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="">
+            <span>电脑</span>
+            <i class="icon">&#xe665;</i>
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="">
+            <span>家用电器</span>
+            <i class="icon">&#xe665;</i>
+          </a>
+        </div>
+        <div class="menu-item">
+          <a href="">
+            <span>家具</span>
+            <i class="icon">&#xe665;</i>
+          </a>
+        </div>
       </div>
-     </section>
-    </article>
-    <article class="column-6 column">
-     <section class="skills">
-      <div class="sec-title-wrapper icon-wrench">
-       <h3 class="sec-title"><span class="sec-zh">技能</span><span class="sec-en">Skills</span></h3>
+      <div class="banner" id="banner">
+        <a href="">
+          <div class="banner-slide slide-active"></div>
+        </a>
+        <a href="">
+          <div class="banner-slide"></div>
+        </a>
+        <a href="">
+          <div class="banner-slide"></div>
+        </a>
       </div>
-      <div class="timeline-wrapper">
-       <ul class="sec-content timeline">
-        <li class="timeline-item icon-flags"><h3 class="timeline-title"><span class="skill">Web前端</span></h3>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           <strong>HTML/CSS</strong>
-          </dt>
-          <dd class="skill-description icon-star">
-           能够编写语义化的
-           <strong>HTML</strong> ，熟悉
-           <strong>CSS</strong> 的使用，实现常用的布局与动画，能借助
-           <strong>CanvasAPI</strong> 实现简单游戏
-          </dd>
-          <dd class="skill-description icon-star">
-           了解
-           <strong>HTML5/CSS3</strong> 新特性，敢于尝试，能熟练使用部分新特性
-          </dd>
-          <dd class="skill-description icon-star">
-           不借助框架，能编写
-           <strong>响应式/移动端网页</strong>
-          </dd>
-         </dl>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           <strong>ECMAScript（JavaScript）</strong>
-          </dt>
-          <dd class="skill-description icon-star">
-           熟悉 JavaScript ，
-           <strong>代码编写遵守规范</strong>
-          </dd>
-          <dd class="skill-description icon-star">
-           了解
-           <strong> JavaScript 面向对象知识</strong>与
-           <strong>MV*</strong> 模式
-          </dd>
-          <dd class="skill-description icon-star">
-           学习 ES6/7 规范，不断实践并在新项目中应用
-          </dd>
-          <dd class="skill-description icon-star">
-           熟悉 JavaScript 异步编程，
-           <strong>掌握常见的异步解决方案</strong>
-          </dd>
-         </dl>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           前端工程化实践
-          </dt>
-          <dd class="skill-description icon-star">
-           能熟练使用
-           <strong>Vue</strong> 并搭配 Vue 相关工具 完成单页和常见应用的编写
-          </dd>
-          <dd class="skill-description icon-star">
-           熟悉 jQuery/Bootstrap 等常见框架类库的使用
-          </dd>
-          <dd class="skill-description icon-star">
-           对 React 和 Vue 等业界主流框架有所了解
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-cloud"><h3 class="timeline-title"><span class="skill">Web后端</span></h3>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           <strong>Node.js</strong>
-          </dt>
-          <dd class="skill-description icon-star">
-           使用
-           <strong>JavaScript + Express</strong> 等框架搭建后端服务器
-          </dd>
-          <dd class="skill-description icon-star">
-           <strong>使用 Node.js 开发命令行</strong>
-          </dd>
-          <dd class="skill-description icon-star">
-           能配合 MongoDB 进行数据存储
-          </dd>
-         </dl>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           其它知识
-          </dt>
-          <dd class="skill-description icon-star">
-           熟悉
-           <strong> HTTP 常见知识 </strong>,对 HTTP2/WebSocket 等新知识有所了解
-          </dd>
-          <dd class="skill-description icon-star">
-           使用 Unity + Javascript 写出过一些简单的 2D 游戏
-          </dd>
-         </dl></li>
-        <li class="timeline-item icon-gears"><h3 class="timeline-title"><span class="skill">其它</span></h3>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           <strong>计算机基础</strong>
-          </dt>
-          <dd class="skill-description icon-star">
-           计算机基础较好，
-           <strong>对计算机与编程有极大热情，自学能力较强</strong>
-          </dd>
-          <dd class="skill-description icon-star">
-           在 Github 有自己的开源项目
-          </dd>
-         </dl>
-         <dl class="skill-content">
-          <dt class="skill-name">
-           工具使用
-          </dt>
-          <dd class="skill-description icon-star">
-           一年 Linux 使用经验，
-           <strong>使用 Ubuntu 作为日常系统</strong>
-          </dd>
-          <dd class="skill-description icon-star">
-           熟练使用 Git 等代码管理与团队协作工具，了解常见 Gitflow 并尝试在团队内推广使用
-          </dd>
-          <dd class="skill-description icon-star">
-           日常使用
-           <strong>Sublime Text </strong> 进行开发
-          </dd>
-         </dl></li>
-       </ul>
+      <a href="javascrip:void(0)" class="button prev" id="prev"></a>
+      <a href="javascrip:void(0)" class="button next" id="next"></a>
+      <div class="dots" id="dots">
+        <span class="dot-active"></span>
+        <span></span>
+        <span></span>
       </div>
-     </section>
-    </article>
-   </article>
-  </div>
-  <footer>
-   <p>Inspired by <a href="https://joyeecheung.github.io/resume/">Joyee Cheung</a>. MIT License.</p>
-  </footer>
- </body>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
